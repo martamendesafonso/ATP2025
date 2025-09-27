@@ -1,3 +1,4 @@
+```phyton
 primeiro=input("Escolha se quer jogar primeiro: s ou n")
 fósforos=21
 while fósforos>0:
