@@ -1,4 +1,7 @@
 ```phyton
+print("Jogo dos 21 fósforos")
+print("Há 21 fósforos. Em cada jogada podes tirar 1,2,3 ou 4 fósforos")
+print("Quem tirar o último fósforo PERDE!")
 primeiro=input("Escolha se quer jogar primeiro: s ou n")
 fósforos=21
 while fósforos>0:
