@@ -92,14 +92,6 @@ def procuraMedico(lista):
     return res
 
 def simula():
-    """Motor da simulação (PASSO 1).
-
-    Regras deste passo:
-    - Mantém TODOS os nomes e modelos do ficheiro base (enqueue/dequeue, queueEventos, queue, etc.)
-    - Completa com as métricas pedidas no enunciado.
-    - No fim devolve um dicionário com resultados (para a App e para os gráficos).
-    """
-
     tempo_atual = 0.0
     contadorDoentes = 1
     queueEventos = []  
@@ -273,3 +265,4 @@ def simula():
 
 if __name__ == "__main__":
     simula()
+
